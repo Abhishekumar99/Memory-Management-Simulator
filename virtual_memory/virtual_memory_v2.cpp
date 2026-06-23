@@ -1,5 +1,6 @@
 #include <iostream>
 #include <unordered_map>
+#include "virtual_memory.h"
 
 using namespace std;
 
@@ -218,7 +219,7 @@ public:
     }
 };
 
-int main()
+void runVirtualMemory()
 {
     VirtualMemory vm;
 
@@ -255,6 +256,4 @@ int main()
         }
 
     } while(choice != 3);
-
-    return 0;
 }

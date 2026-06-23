@@ -56,10 +56,8 @@ public:
     }
 };
 
-int main()
+void runPaging()
 {
     Paging p;
     p.translateAddress();
-
-    return 0;
 }

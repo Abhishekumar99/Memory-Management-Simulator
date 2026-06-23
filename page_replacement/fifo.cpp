@@ -91,21 +91,19 @@ public:
     }
 };
 
-int main()
+void runFIFO()
 {
     vector<int> pages =
     {
-        1, 2, 3, 4,
-        1, 2, 5,
-        1, 2, 3,
-        4, 5
+        1,2,3,4,
+        1,2,5,
+        1,2,3,
+        4,5
     };
 
     int frames = 3;
 
     FIFO fifo;
 
-    fifo.simulate(pages, frames);
-
-    return 0;
+    fifo.simulate(pages,frames);
 }

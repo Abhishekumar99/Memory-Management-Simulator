@@ -105,13 +105,11 @@ public:
     }
 };
 
-int main()
+void runSegmentation()
 {
     Segmentation segmentation;
 
     segmentation.displaySegmentTable();
 
     segmentation.translateAddress();
-
-    return 0;
 }

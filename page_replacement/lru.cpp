@@ -90,20 +90,19 @@ public:
     }
 };
 
-int main()
+void runLRU()
 {
     vector<int> pages =
     {
-        1, 2, 3, 4,
-        1, 2, 5,
-        1, 2, 3,
-        4, 5
+        1,2,3,4,
+        1,2,5,
+        1,2,3,
+        4,5
     };
 
     int frames = 3;
 
     LRU lru;
-    lru.simulate(pages, frames);
 
-    return 0;
+    lru.simulate(pages, frames);
 }

@@ -147,14 +147,14 @@ public:
     }
 };
 
-int main()
+void runOptimal()
 {
     vector<int> pages =
     {
-        1, 2, 3, 4,
-        1, 2, 5,
-        1, 2, 3,
-        4, 5
+        1,2,3,4,
+        1,2,5,
+        1,2,3,
+        4,5
     };
 
     int frames = 3;
@@ -162,6 +162,4 @@ int main()
     Optimal optimal;
 
     optimal.simulate(pages, frames);
-
-    return 0;
 }

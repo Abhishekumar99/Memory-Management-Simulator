@@ -41,7 +41,7 @@ public:
     }
 };
 
-int main()
+void runBestFit()
 {
     vector<int> blocks =
     {
@@ -57,6 +57,4 @@ int main()
     BestFit bf;
 
     bf.allocate(blocks, processSize);
-
-    return 0;
 }

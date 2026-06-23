@@ -41,7 +41,7 @@ public:
     }
 };
 
-int main()
+void runWorstFit()
 {
     vector<int> blocks =
     {
@@ -57,6 +57,4 @@ int main()
     WorstFit wf;
 
     wf.allocate(blocks, processSize);
-
-    return 0;
 }

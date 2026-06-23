@@ -36,7 +36,7 @@ public:
     }
 };
 
-int main()
+void runFirstFit()
 {
     vector<int> blocks =
     {
@@ -52,6 +52,4 @@ int main()
     FirstFit ff;
 
     ff.allocate(blocks, processSize);
-
-    return 0;
 }
